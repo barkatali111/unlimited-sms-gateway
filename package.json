@@ -1,0 +1,43 @@
+{
+  "name": "unlimited-sms-gateway",
+  "version": "3.0.0",
+  "description": "Unlimited SMS Gateway with Zero Third-Party API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "node setup.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "serialport": "^12.0.0",
+    "usb": "^2.9.0",
+    "pdu": "^1.1.0",
+    "gsm-encoder": "^2.0.0",
+    "smpp": "^1.2.0",
+    "socket.io": "^4.7.2",
+    "express": "^4.18.2",
+    "crypto-js": "^4.2.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "unlimited-sms",
+    "sms-gateway",
+    "telegram-bot",
+    "no-api"
+  ],
+  "author": "Unlimited SMS Systems",
+  "license": "MIT"
+}
